@@ -6,6 +6,7 @@
     [xml]$myXML = Get-Content $filePath
     $ns = New-Object System.Xml.XmlNamespaceManager($myXML.NameTable)
     $ns.AddNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance")
+
     
     
     #delete grid if no beacon, then if no wheels, rotor, piston pieces.
