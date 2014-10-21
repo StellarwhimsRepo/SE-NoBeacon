@@ -2,6 +2,8 @@ SE-NoBeacon
 ===============
 **INTENDED FOR DEDICATED SERVERS
 
+If you intend to use these for commercial panel / virtual servers / personal use, go ahead. I just ask that you give me credit for it or leave a testimony of how it has benefited you here. Thank you!
+
 The author of this script is not responsible for any damage to the game save or the machine it is run on.
 
 Grid removal if no Beacon is found.
