@@ -11,7 +11,7 @@ The author of this script is not responsible for any damage to the game save or 
 Grid removal if no Beacon is found.
 
 This powershell script is used by changing the variables at the top of the 'ps1' file to match your server settings.
-(ignores grids; on the end of a rotor, on the end of a piston, wheels are ignored as well.)
+(ignores grids; on the end of a rotor/adv rotor, on the end of a piston, wheels are ignored as well.)
 
 The default settings will delete object grids from the game if those grids have no beacon.
 
