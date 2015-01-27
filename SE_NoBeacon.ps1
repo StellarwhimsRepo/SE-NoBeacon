@@ -8,7 +8,7 @@
     $deletedfilename = "Owned_Audit_" +$CurrentDateTime+ ".log"
     $deletedpath = $deletedLogs + $deletedfilename
     
-    [xml]$myXML = Get-Content $filePath
+    [xml]$myXML = Get-Content $filePath -Encoding UTF8
     $ns = New-Object System.Xml.XmlNamespaceManager($myXML.NameTable)
     $ns.AddNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance")
 
